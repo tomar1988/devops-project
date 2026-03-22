@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-devops
-        image: hello-devops:v1
+        image: hello-devops:v2
         imagePullPolicy: Never
         ports:
         - containerPort: 5001
